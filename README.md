@@ -1,3 +1,3 @@
-Hi, I'm Tobias. 
+Hi! I'm Toby.
 
-Studying Dev ops engineering, super bad at coding :))))
+I suck at Coding. Don't look at my Code, you have been warned.
