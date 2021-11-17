@@ -1,3 +1,5 @@
 Hi! I'm Toby.
 
-I suck at Coding. Don't look at my Code, you have been warned.
+I suck at Coding. This is just where i Dump my scripts. 
+
+You have been warned, have a nice day :)
