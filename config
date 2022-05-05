@@ -1,32 +1,32 @@
 Host jump
-	Hostname 91.197.41.243
+	Hostname "IP"
 	User ubuntu
 	Port 22
-	IdentityFile /home/tobias/.ssh/gs-elastx
+	IdentityFile "FILE_PATH"
 
 Host web-sto01
-	Hostname 10.0.65.189
+	Hostname "IP"
 	User ubuntu
-	ProxyCommand ssh -q -W %h:%p jump
+	ProxyCommand ssh -q -W %h:%p "JUMP_SERVER"
 	Port 22
 	StrictHostKeyChecking no
-	IdentityFile /home/tobias/.ssh/gs-elastx
+	IdentityFile "FILE_PATH
 
 Host web-sto02
-	Hostname 10.0.65.106
+	Hostname "IP"
 	User ubuntu
-	ProxyCommand ssh -q -W %h:%p jump
+	ProxyCommand ssh -q -W %h:%p "JUMP_SERVER"
 	Port 22
 	StrictHostKeyChecking no
-	IdentityFile /home/tobias/.ssh/gs-elastx
+	IdentityFile "FILE_PATH"
 
 Host web-sto03
-	Hostname 10.0.65.131
+	Hostname "IP"
 	User ubuntu
-	ProxyCommand ssh -q -W %h:%p jump
+	ProxyCommand ssh -q -W %h:%p "JUMP_SERVER"
 	Port 22
 	StrictHostKeychecking no
-	IdentityFile /home/tobias/.ssh/gs-elastx
+	IdentityFile "FILE_PATH"
 
 
 #----------------------------------------------------#
