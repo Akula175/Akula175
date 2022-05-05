@@ -1,10 +1,10 @@
-Host jump
+Host "HOSTNAME"
 	Hostname "IP"
 	User ubuntu
 	Port 22
 	IdentityFile "FILE_PATH"
 
-Host web-sto01
+Host "HOSTNAME"
 	Hostname "IP"
 	User ubuntu
 	ProxyCommand ssh -q -W %h:%p "JUMP_SERVER"
@@ -12,7 +12,7 @@ Host web-sto01
 	StrictHostKeyChecking no
 	IdentityFile "FILE_PATH
 
-Host web-sto02
+Host "HOSTNAME"
 	Hostname "IP"
 	User ubuntu
 	ProxyCommand ssh -q -W %h:%p "JUMP_SERVER"
@@ -20,7 +20,7 @@ Host web-sto02
 	StrictHostKeyChecking no
 	IdentityFile "FILE_PATH"
 
-Host web-sto03
+Host "HOSTNAME"
 	Hostname "IP"
 	User ubuntu
 	ProxyCommand ssh -q -W %h:%p "JUMP_SERVER"
