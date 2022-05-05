@@ -1,32 +1,15 @@
 Host "HOSTNAME"
 	Hostname "IP"
-	User ubuntu
+	User "USER"
 	Port 22
 	IdentityFile "FILE_PATH"
 
 Host "HOSTNAME"
 	Hostname "IP"
-	User ubuntu
+	User "USER"
 	ProxyCommand ssh -q -W %h:%p "JUMP_SERVER"
 	Port 22
 	StrictHostKeyChecking no
 	IdentityFile "FILE_PATH
-
-Host "HOSTNAME"
-	Hostname "IP"
-	User ubuntu
-	ProxyCommand ssh -q -W %h:%p "JUMP_SERVER"
-	Port 22
-	StrictHostKeyChecking no
-	IdentityFile "FILE_PATH"
-
-Host "HOSTNAME"
-	Hostname "IP"
-	User ubuntu
-	ProxyCommand ssh -q -W %h:%p "JUMP_SERVER"
-	Port 22
-	StrictHostKeychecking no
-	IdentityFile "FILE_PATH"
-
 
 #----------------------------------------------------#
